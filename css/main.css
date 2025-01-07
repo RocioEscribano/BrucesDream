@@ -1,0 +1,92 @@
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Background Gradient */
+body {
+    background: linear-gradient(150px, #fff, #bababa); 
+}
+
+/*Main Content*/
+#desc p{
+    text-align: justify;
+}
+
+/* Navbar */
+nav {
+    background-color: #222;
+}
+
+/* Fade Effect */
+img:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s ease;
+}
+
+/* Transform and Animation */
+footer p {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+footer p:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Carousel */
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Form Styling */
+.form-label {
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-top: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
